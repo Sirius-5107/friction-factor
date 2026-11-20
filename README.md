@@ -8,6 +8,10 @@ This repository is the persistent research log for the proposed add-on feature a
 - [Portability-Adjusted Transition Optimizer](research/portability-adjusted-transition-optimizer.md) — problem framing, public evidence, LPL's existing capabilities, ACATS / non-ACATS portability taxonomy, proposed product workflow, quantitative framework, risks, open questions and research plan.
 - [Transfer Rails & Regulatory Updates](research/transfer-rails-and-regulatory-updates.md) — DTCC specialist rails (Fund/SERV, I&RS, AIP, OCC), partial transfers, annuity broker-of-record processing, FINRA consent boundary and proposed position-level data model.
 
+## Stage 1 validation
+
+- [Stage 1 — Validate the LPL Capability Gap](research/stage-1-capability-gap-validation.md) — public capability map, retention-metric clarification, gap matrix, interview questions, evidence requests and go/no-go criteria.
+
 ## Current working hypothesis
 
 Build an **analytical decision-support layer**, not another onboarding or transfer execution tool.
@@ -32,4 +36,4 @@ The proposed layer would compare feasible ways to handle each household asset du
 4. Update the relevant dossier's change log when material findings are added.
 5. Do not begin implementation until the product gap is confirmed with LPL / the problem-statement owner.
 
-Last updated: 20 November 2026.
+Last updated: 20 November 2026 (Stage 1 desk research added).
