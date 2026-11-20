@@ -8,7 +8,8 @@ This repository is the persistent research log for the proposed add-on feature a
 - [Portability-Adjusted Transition Optimizer](research/portability-adjusted-transition-optimizer.md) — problem framing, public evidence, LPL's existing capabilities, ACATS / non-ACATS portability taxonomy, proposed product workflow, quantitative framework, risks, open questions and research plan.
 - [Transfer Rails & Regulatory Updates](research/transfer-rails-and-regulatory-updates.md) — DTCC specialist rails (Fund/SERV, I&RS, AIP, OCC), partial transfers, annuity broker-of-record processing, FINRA consent boundary and proposed position-level data model.
 
-- [Add-on Feature Design](research/add-on-feature-design-spec.md) — fixed-scope product definition, synthetic household walkthrough, module architecture, optimization formulation, inputs, outputs, prototype plan and non-goals.\n\n## Stage 1 validation
+- [Add-on Feature Design](research/add-on-feature-design-spec.md) — fixed-scope product definition, synthetic household walkthrough, module architecture, optimization formulation, inputs, outputs, prototype plan and non-goals.
+- [Specialist Validation Pack](research/specialist-validation-pack.md) — structured interview guide, position-level and household-level case templates, gap-confirmation scorecard, synthetic fixture variants and ordered validation plan.\n\n## Stage 1 validation
 
 - [Stage 1 — Validate the LPL Capability Gap](research/stage-1-capability-gap-validation.md) — public capability map, retention-metric clarification, gap matrix, interview questions, evidence requests and go/no-go criteria.
 
@@ -45,3 +46,14 @@ The proposed layer would compare feasible ways to handle each household asset du
 5. Do not begin implementation until the product gap is confirmed with LPL / the problem-statement owner.
 
 Last updated: 20 November 2026 (Stage 1 desk research added).
+
+
+## Immediate next steps
+
+1. Interview 1–2 transition specialists / Investment Transition Partners using the structured guide.
+2. Request two structured, anonymized cases if feasible: one interesting mixed-asset case and one typical case.
+3. Evaluate whether existing specialist tools already produce position-level route choices plus household-level financial consequences.
+4. In parallel, continue synthetic $1M household variants and hand-worked calculation tests.
+5. Refine rules, calculators and scenario logic only after the capability gap is confirmed.
+
+The interview and case study validate the fixed add-on; they do not authorize expansion into onboarding, execution, workflow tracking or retention prediction.
