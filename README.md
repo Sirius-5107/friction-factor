@@ -12,6 +12,14 @@ This repository is the persistent research log for the proposed add-on feature a
 
 - [Stage 1 — Validate the LPL Capability Gap](research/stage-1-capability-gap-validation.md) — public capability map, retention-metric clarification, gap matrix, interview questions, evidence requests and go/no-go criteria.
 
+
+### Stage 1 follow-up findings
+
+- LPL's *Overcoming Transition Hurdles* white paper cites a February 2014 survey: 59% of surveyed advisors fell in the 75%–100% client-retention band. This is a possible source of an informal ~80% claim, but not an 80% average and not confirmed as the senior's source.
+- LPL's Q3 2026 83% Commonwealth figure is asset retention; management attributed the reduction from ~85% signed-advisor stage to a small number of signed advisors deciding not to stay—not to transfer paperwork.
+- Public sources identify multiple causes (advisor/client choice, relationship and communication, incumbent multi-product relationships, product portability, legal/privacy and paperwork), but provide no cause-level percentages.
+- Public materials still do not establish whether LPL internally compares asset-level transfer / liquidate / retain / defer economics at household level. An anonymized mixed-asset case and internal capability confirmation are still required.
+
 ## Current working hypothesis
 
 Build an **analytical decision-support layer**, not another onboarding or transfer execution tool.
