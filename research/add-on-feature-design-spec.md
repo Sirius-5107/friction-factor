@@ -209,12 +209,13 @@ Do not claim a client-retention uplift, AUM-retention uplift or fixed time savin
 
 ## 12. Open validation items
 
-The design can be specified without resolving the informal retention statistic. The material questions now are:
+The material questions now are:
 1. Which exact existing PS data structures and calculators can this module consume?
 2. What position-level portability and product data can be obtained at decision time?
 3. What route decisions do transition specialists currently make manually?
-4. Can a specialist provide one anonymized mixed-asset case, including the available route choices and relevant costs / restrictions?
-5. Which household-level comparisons are currently missing from the advisor's workflow?
+4. Do current specialist tools already compare position-level routes and household-level consequences?
+5. Which household-level comparisons are currently missing, fragmented or manual?
+6. Would specialists use this analysis, and at what point in their current process?
 
 ## 13. Decision boundary
 
