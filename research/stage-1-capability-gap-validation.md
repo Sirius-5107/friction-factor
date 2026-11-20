@@ -308,3 +308,161 @@ Do not request identifiable customer data. Use synthetic or properly anonymized/
 ## 11. Change log
 
 - **2026-11-20:** Stage 1 desk research completed. Mapped publicly described LPL transition infrastructure and differentiated it from the potential household-level financial decision layer. Identified LPL's 83% expected Commonwealth asset-retention forecast and the CFO's explanation that some signed advisors changed their mind; separated it from 97% / 98% company-wide asset retention and 45-day / 90%-AUM transition statistics. Added a capability-gap matrix, internal interview questions, evidence request list and go/no-go criteria. Internal validation remains open.
+
+
+---
+
+## 12. Follow-up public-source investigation — answers we can establish
+
+**Research update:** 20 November 2026  
+**Important limitation:** These are answers available from public sources. We cannot obtain LPL's internal exception breakdown, CAT/IAT screens, transition-specialist workpapers or anonymized household case without access from LPL / the problem-statement owner. Those remain explicit requests, not facts to infer.
+
+### 12.1 Where could the “80% of clients” figure have come from?
+
+A potentially relevant source has now been found: LPL's *Overcoming Transition Hurdles* white paper reproduces a February 2014 Rep/Wealth Management survey. It says:
+- 59% of surveyed advisors retained between 75% and 100% of clients.
+- 15% retained 50%–74%.
+- 12% retained 25%–49%.
+- 14% retained less than 25%.
+
+This is **not** a finding that the average advisor retains 80% of clients. It is a distribution of advisors across retention bands, based on a 2014 survey. The document does not provide the survey sample size or enough methodological detail to use it as a current benchmark. It is, however, a plausible source of an informal “around 80%” rule of thumb if someone simplified the broad 75%–100% band.
+
+Source: LPL Financial, *Overcoming Transition Hurdles*, p.3; survey cited as Rep/Wealth Management, February 2014 — “Transitioning firms: strategies, benefits and drawbacks experienced by advisors”: https://www.lpl.com/content/dam/lpl-www/images/join-lpl/LG/WPHT/WP-Overcoming-Transition-Hurdles.pdf
+
+**Assessment:** Candidate provenance found, but not confirmed as the senior's source. The senior must still identify where the number came from. Do not turn this old survey into a current LPL performance metric.
+
+### 12.2 What causes clients / assets not to follow? What is actually evidenced?
+
+Public materials identify several distinct mechanisms:
+
+| Mechanism | Public evidence | What can be concluded |
+|---|---|---|
+| Advisor chooses not to complete move | In Q3 2026, LPL's CFO said a small number of Commonwealth advisors who had signed later decided not to stay, taking expected asset retention from ~85% signed-advisor stage to ~83% | This explains part of the Commonwealth asset-retention forecast; it is advisor-level attrition, not NIGO or asset-transfer failure |
+| Client chooses not to open an account / move assets | LPL's Q3 2026 safe-harbor language explicitly identifies client choice not to open brokerage/advisory accounts as a risk to onboarding assets | Client consent / preference is a separate cause from asset eligibility |
+| Weak / shallow advisor-client relationship or poor transition communication | LPL's transition white paper says successful client relationship retention is associated with relationship strength and preparation/communication before, during and after the move | Relationship quality and communication are recognized factors; no quantified causal split is provided |
+| Client's broader relationship with incumbent firm | LPL's white paper recommends reviewing whether clients also use the incumbent for loans, credit cards, checking/savings or property/casualty insurance | A client may have multiple products/services that do not automatically follow the advisor; the brokerage account is only part of the relationship |
+| Product portability / eligibility | The same white paper explicitly recommends assessing portability of products clients hold; SEC/FINRA guidance documents assets that may be unsupported or require alternate disposition/processing | A genuine asset-level friction category exists, but its share of total lost/delayed AUM is not publicly quantified |
+| Legal / contractual / privacy constraints | LPL's white paper calls out current employment agreements, non-compete/non-solicitation terms, new-firm agreements, privacy and customer-information obligations | These can constrain advisor transition preparation and data access; not necessarily the reason a client's assets fail to transfer |
+| Paperwork / repapering / operational exceptions | LPL says CAT/IAT and automation reduce incomplete submissions, back-and-forth and rework | This confirms paperwork friction exists as a workflow category; it does not establish that it is the dominant cause of asset attrition |
+
+Sources:
+- LPL *Overcoming Transition Hurdles*, especially pp.2–3: https://www.lpl.com/content/dam/lpl-www/images/join-lpl/LG/WPHT/WP-Overcoming-Transition-Hurdles.pdf
+- LPL Q3 2026 prepared remarks / safe-harbor factors: https://investor.lpl.com/static-files/4cd249c9-a4ec-400f-8d01-40c4a498a97f
+- LPL Q3 2026 call transcript, CFO remarks on Commonwealth: https://www.fool.com/earnings/call-transcripts/2026/10/28/lpl-financial-lpla-q3-2026-earnings-call-transcript/
+- LPL CAT/IAT description: https://www.lpl.com/join-lpl/why-choose-lpl/news-and-insights/how-lpl-financial-is-redefining-advisor-transition-experience.html
+- SEC Investor Bulletin on transfer exceptions: https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-79
+
+### 12.3 Which of those are asset-transfer / financial-decision problems?
+
+**Potentially in scope for our add-on:**
+- Unsupported / proprietary / unavailable assets that require a decision to transfer through another route, liquidate, retain or defer.
+- Product relationships that cannot follow the advisor in the same way as brokerage accounts (for example, banking, insurance or other incumbent-firm products).
+- Annuity broker-of-record / servicing changes versus actual contract replacement, where contract economics matter.
+- Liquidation decisions where tax lots, redemption charges, penalties, lost guarantees or time out of market matter.
+- Partial transfers where the household's remaining holdings and financial plan need to be assessed together.
+
+**Not automatically in scope:**
+- Advisor changes their mind before transition.
+- Client declines to open an account or does not want to move.
+- Client values the incumbent's broader banking / insurance / lending relationship.
+- Legal restrictions on what client data an advisor can take.
+- Pure paperwork delays where the economic decision is already clear.
+
+Those categories may need better communication, legal review or workflow support, but they are not solved by a portfolio / tax optimizer. A product should not attempt to override client choice or legal constraints.
+
+**Still unknown:** There is no public breakdown of what percentage of residual assets is attributable to each cause. We cannot say asset portability is the principal cause of the reported 20% gap.
+
+### 12.4 Does LPL already compare transfer / liquidation / retain / defer economics?
+
+What public materials establish:
+- CAT collects client/account data and prepares cleaner submissions.
+- IAT orchestrates repapering / client data collection and reduces back-and-forth.
+- LPL's Investment Transition Partner is described as helping map the current book and consulting on investment products / platform fit.
+- LPL's public transition materials describe transfer support and new-account opening.
+- LPL's transition white paper explicitly tells advisors to assess client-product portability before moving.
+
+What public materials **do not establish**:
+- Whether LPL generates a position-level report of eligible routes and conditions.
+- Whether it compares in-kind transfer, alternate rail, liquidation, retention and deferral for each holding.
+- Whether it calculates tax-lot impact, redemption/transfer fees, annuity guarantees/riders, post-transfer allocation and financial-plan impact in one household-level scenario analysis.
+- Whether transition specialists do these calculations manually using internal tools or specialist knowledge.
+
+**Answer:** No public evidence found that settles whether LPL already offers the proposed optimizer. It remains an internal capability question. The fact that CAT/IAT are described as data-collection / repapering tools is not enough to conclude the decision layer is absent.
+
+### 12.5 Is there a public anonymized transition case study?
+
+No public LPL case study located in this pass that provides the necessary position-level before/after detail (holdings, transfer rail, exception reason, alternative disposition, tax/fee/guarantee impact and final outcome).
+
+Request from the problem owner / LPL:
+- One anonymized household with a mixed set of transferable and difficult-to-transfer holdings.
+- Initial holdings and account registrations.
+- Asset-level route / exception codes and timeline.
+- Options considered (in-kind, alternate rail, liquidate, retain, defer).
+- Decision rationale and any tax, fee, surrender, guarantee or portfolio impact.
+- Final disposition and what the advisor / transition specialist would have done differently.
+
+If no real case can be shared, ask for a synthetic case based on a real recurring pattern and have a transition specialist validate the assumptions.
+
+---
+
+## 13. Updated answers to the five validation questions
+
+| Question | Best answer from public evidence | Status |
+|---|---|---|
+| 1. Where did the 80% figure come from? | A 2014 survey cited in an LPL white paper reports 59% of surveyed advisors retained 75%–100% of clients. This could be a source of a rough “80%” statement, but it is not an 80% average and is not confirmed as the senior's source. | Partially answered; ask senior for provenance |
+| 2. What causes clients/assets not to follow? | Advisor attrition, client refusal/not opening an account, relationship/communication strength, incumbent multi-product relationships, product portability, legal/privacy constraints and paperwork/operational exceptions are all documented categories. | Causes identified; proportions unknown |
+| 3. Which are transfer / financial decision problems? | Product portability, route selection, liquidation vs retain/defer, tax/fees/guarantees and mixed-household portfolio effects. Advisor/client choice and legal/pure paperwork issues are separate categories. | Conceptually answered; magnitude unknown |
+| 4. Does LPL already compare alternative asset dispositions economically? | Public descriptions establish data collection, repapering, transition specialists and transfer support, but do not establish whether this household-level scenario analysis exists internally. | Unanswered internally |
+| 5. Can we get an anonymized example? | No suitable public case found. Must request one from senior/LPL; specify required fields in §12.5. | Unanswered internally |
+
+---
+
+## 14. Revised product hypothesis and next research gate
+
+The original broad idea — “remove transition friction so more clients/assets follow the advisor” — is too broad and mixes different causes.
+
+A narrower, more defensible hypothesis is:
+
+> For households whose assets cannot all move cleanly in-kind, give the advisor and transition specialist a client-beneficial, position-level comparison of feasible dispositions and quantify the impact of the resulting partial-transfer portfolio on the household's financial plan.
+
+This is only relevant if:
+1. A meaningful amount of AUM is delayed, stranded or treated suboptimally because asset-level decisions are difficult.
+2. Existing LPL tools / transition specialists do not already provide the same analysis.
+3. The advisor has sufficient holdings, tax-lot and product-contract data to make the comparison.
+4. The decision can change the outcome for the client, rather than merely document an already-obvious operational task.
+
+**Next gate:** obtain the 80% source and one anonymized mixed-asset transition case from the senior / problem-statement owner. Do not build a model or UI until these are obtained and the LPL capability question is answered.
+
+---
+
+## 15. Additional sources added
+
+1. **LPL Financial — Overcoming Transition Hurdles** (white paper; cites Rep/Wealth Management survey, February 2014)  
+   https://www.lpl.com/content/dam/lpl-www/images/join-lpl/LG/WPHT/WP-Overcoming-Transition-Hurdles.pdf  
+   Used for: 2014 advisor client-retention distribution; relationship strength and communication; incumbent multi-product relationships; product portability; legal and privacy considerations.
+
+2. **LPL Financial Q3 2026 Earnings Prepared Remarks** (27 October 2026)  
+   https://investor.lpl.com/static-files/4cd249c9-a4ec-400f-8d01-40c4a498a97f  
+   Used for: 97% Q3 / 98% trailing-12-month overall asset retention; 83% Commonwealth expected asset retention; client choice and onboarding risks in safe-harbor language.
+
+3. **LPL Financial Q3 2026 Earnings Call Transcript** (27 October 2026)  
+   https://www.fool.com/earnings/call-transcripts/2026/10/28/lpl-financial-lpla-q3-2026-earnings-call-transcript/  
+   Used for: CFO's explanation that a small number of signed Commonwealth advisors decided not to stay, reducing expected asset retention from approximately 85% at the signed-advisor stage to 83%.
+
+4. **LPL Financial Q3 2026 Investor Presentation** (27 October 2026)  
+   https://investor.lpl.com/static-files/e0ebb41e-5203-402e-9d39-2641a320637d  
+   Used for: 83% Commonwealth asset-retention assumption, scale of Commonwealth conversion, and distinction between asset retention and advisor headcount retention.
+
+5. **LPL Financial — What to Know When Your Advisor Moves to LPL Financial**  
+   https://www.lpl.com/investors/investors-new-to-lpl.html  
+   Used for: LPL's client-facing statement that most accounts and virtually all holdings should transfer in most cases; marketing claim, not a guarantee.
+
+6. **LPL Financial — Redefining the Financial Advisor Transition Experience**  
+   https://www.lpl.com/join-lpl/why-choose-lpl/news-and-insights/how-lpl-financial-is-redefining-advisor-transition-experience.html  
+   Used for: CAT / IAT stated functions.
+
+---
+
+## 16. Change log
+
+- **2026-11-20 follow-up:** Located LPL's *Overcoming Transition Hurdles* white paper and its cited February 2014 Rep/Wealth Management survey. The survey distribution (59% of advisors in the 75%–100% client-retention band) is a possible origin for an informal “80%” rule of thumb, but is not an 80% average and is not confirmed as the senior's source. Added public cause taxonomy (advisor attrition, client choice, relationship/communication, incumbent multi-product relationships, portability, legal/privacy and paperwork). Clarified that LPL's Q3 2026 83% Commonwealth asset-retention reduction was attributed by the CFO to a small number of signed advisors deciding not to stay, not to NIGO or non-transferable assets. Confirmed that public materials still do not resolve LPL's internal route-economics capability or provide a suitable anonymized household case. Added explicit requests and a tighter next research gate.
